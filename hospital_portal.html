@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login_customer.css">
+        <style>
+        .height {
+            height:30px;
+            /* width: 400px; */
+        }
+ 
+        }
+    </style>
+    </head>
+        <body>
+            <span id="root">
+              <section class="section-all">
+          
+                <!-- 1-Role Main -->
+                <main class="main" role="main">
+                  <div class="wrapper">
+                    <article class="article">
+                      <div class="content">
+                        <div class="login-box">
+                          <div class="header">
+                            <h1 class="blood-bank-heading">Blood Bank</h1>
+                            <p>Hospital portal</p>
+                            <!-- <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram"> -->
+                          </div><!-- Header end -->
+                          <div class="form-wrap">
+                            <form class="form" method="post" action="amount_update.php">
+          
+                              <div class="input-box" >
+                                <div class="select-box" >
+                                    <select name="bloodgroup" class="height" required>
+                                    <option hidden>Select your Blood Group</option>
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                    <option>AB+</option>
+                                    <option>AB-</option>
+                                    </select>
+                                </div>
+                              </div>  
+                                <br>
+                                <div class="input-box">
+                                <input type="text" name="amount" id="amount" placeholder="Enter amount of blood (in litres)" aria-describedby="" maxlength="30" aria-required="true" autocapitalize="off" autocorrect="off" required>
+                              </div> 
+                              <br>
+                              
+                                <input type="text" name="hid2" id="hid2" placeholder="Enter your hospital id" aria-describedby="" maxlength="30" aria-required="true" autocapitalize="off" autocorrect="off" hidden>
+                              
+          
+                              <span class="button-box">
+                                <button class="btn" type="submit" name="submit" onclick="la2()">Update</button>
+                              </span>  
+          
+                              
+                            </form>
+                          </div> <!-- Form-wrap end -->
+                        </div> <!-- Login-box end -->
+          
+                        
+                       <!--  <div class="app">
+                          <p>Get the app.</p>
+                          <div class="app-img">
+                            <a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&amp;ct=igweb.loginPage.badge&amp;mt=8">
+                              <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/4b70f6fae447.png" >
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&amp;referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26utm_medium%3Dbadge">
+                              <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/f06b908907d5.png">
+                            </a>  
+                          </div>  
+                        </div>  -->
+                      </div> <!-- Content end -->
+                    </article>
+                  </div>  
+                </main>
+          
+                <!-- 2-Role Footer 
+                <footer class="footer" role="contentinfo">
+                  <div class="footer-container">
+          
+                    <nav class="footer-nav" role="navigation">
+                      <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Api</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li>
+                          <span class="language">Language
+                            <select name="language" class="select" onchange="la(this.value)">
+                              <option value="#">English</option>
+                              <option value="http://ru-instafollow.bitballoon.com">Russian</option>
+                            </select>
+                          </span>
+                        </li>
+                      </ul>
+                    </nav>
+          
+                    <span class="footer-logo">&copy; 2018 Instagram</span>
+                  </div> 
+                </footer>-->
+                
+              </section>
+            </span> <!-- Root -->
+          
+            <!-- Select Link -->
+            <script src="hospital.js">
+            </script>
+          </body>
+</html>
+

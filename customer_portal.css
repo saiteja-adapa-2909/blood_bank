@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+
+.top-head {
+    padding:50px;
+    font-weight: bold;
+    color: white;
+}
+
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+  }
+
+.details-card{
+    background-color: white;
+    border-radius: 20px;
+    color:black;
+    text-align: center;
+    padding:20px;
+}  
+
+.overall-cont{
+    background-color: #3D302F;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    margin:0px;
+}
+
+.cust-name{
+    color:red;
+    font-style: italic;
+}
+
+.search-box-style{
+    border-color: white;
+    color:white
+}
+
+.nav-head-style{
+    font-weight:bold;
+}
+
+.nav-bar-style{
+    background-color: rgba(0,0,0,.2);
+    
+}
